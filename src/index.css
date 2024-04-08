@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.img-dimension {
+  width: 500px;
+  height: 300px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mw-900 {
+  max-width: 970px;
+}
+
+.select-lang {
+  width: 105px;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end !important;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid black;
+}
+
+@media (min-width: 1200px) {
+  .bd-aside {
+    scroll-margin-top: 6rem;
+  }
+  .bd-aside,
+  .bd-cheatsheet {
+    padding-top: 6rem;
+  }
+
+  .bd-cheatsheet article,
+  .bd-cheatsheet .bd-heading {
+    top: 6rem;
+    scroll-margin-top: 6rem;
+  }
+}
+
+.navbar {
+  padding-top: 0.25rem;
+}
+
+.dropdown-menu {
+  max-height: 650px;
+  overflow-y: scroll;
+}
+
+.card-head {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  padding: 0.5rem;
+  border: 1px solid #b8b4b4;
+  border-radius: 0;
+  height: 100%;
+}
+
+.card-body {
+  padding: 0.75rem;
+}
+
+.bg-blue-contrast {
+  background-color: rgb(8,116,220, 0.5);
+}
+
+.bg-blue {
+  background-color: rgb(8,116,220);
+}
+
+.bg-orange-contrast {
+  background-color: rgb(256, 132, 44, 0.5);
+}
+
+.bg-orange {
+  background-color: rgb(256, 132, 44);
+}
+
+.mb-row {
+  margin-bottom: var(--bs-gutter-x);
 }
